@@ -1,5 +1,11 @@
 package ch.hicoders.jam101.week01.ciftlik;
 
 public class Inek {
-    static int Toplam;
+    public static int inekSayisi;
+    public String inekIsmi;
+
+    public Inek(String inekAdi){
+        inekIsmi = inekAdi;
+        inekSayisi++;
+    }
 }
