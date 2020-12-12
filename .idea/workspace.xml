@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cca1476-7513-4acb-b597-91558abc0558" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JAM101-Week3-School/JAM101-Week3-School.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/kisi/ogrenci/Ogrenci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/okul/Okul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/kisi/ogrenci/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/kisi/ogrenci/Ogrenci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/okul/Okul.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/okul/Okul.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +36,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Okul">
     <configuration name="Okul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.hicoders.jam101.week02.okul.Okul" />
       <module name="JAM101-Week3-School" />
@@ -55,9 +52,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Cilesiz/Desktop/HiCodersJava" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Okul" />
+        <item itemvalue="Gradle.C:/Users/Cilesiz/Desktop/HiCodersJava" />
       </list>
     </recent_temporary>
   </component>
