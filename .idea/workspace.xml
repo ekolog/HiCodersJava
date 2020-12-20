@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cca1476-7513-4acb-b597-91558abc0558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/kisi/ogrenci/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/kisi/ogrenci/Ogrenci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/okul/Okul.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week3-School/src/ch/hicoders/jam101/week02/okul/Okul.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
