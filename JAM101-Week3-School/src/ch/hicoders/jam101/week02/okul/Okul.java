@@ -1,5 +1,5 @@
 package ch.hicoders.jam101.week02.okul;
-import ch.hicoders.jam101.week02.kisi.ogrenci.Ogrenci;
+import ch.hicoders.jam101.week02.kisi.Ogrenci;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -8,15 +8,15 @@ public class Okul {
     public static void main(String[] args) {
         Random random = new Random();
         int numberOfStudents = random.nextInt(50);
-        ArrayList<Ogrenci> ogrenciler = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> matemetikdenKalanlar = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> almancadanKalanlar = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> matemetikdenGecenler = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> almancadanGecenler = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> almancadanEnYuksekNotAlanlar = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> almancadanEnDusukNotAlanlar = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> matematiktenEnYuksekNotAlanlar = new ArrayList<Ogrenci>();
-        ArrayList<Ogrenci> matematiktenEnDusukNotAlanlar = new ArrayList<Ogrenci>();
+        ArrayList<Ogrenci> ogrenciler = new ArrayList<>();
+        ArrayList<Ogrenci> matemetikdenKalanlar = new ArrayList<>();
+        ArrayList<Ogrenci> almancadanKalanlar = new ArrayList<>();
+        ArrayList<Ogrenci> matemetikdenGecenler = new ArrayList<>();
+        ArrayList<Ogrenci> almancadanGecenler = new ArrayList<>();
+        ArrayList<Ogrenci> almancadanEnYuksekNotAlanlar = new ArrayList<>();
+        ArrayList<Ogrenci> almancadanEnDusukNotAlanlar = new ArrayList<>();
+        ArrayList<Ogrenci> matematiktenEnYuksekNotAlanlar = new ArrayList<>();
+        ArrayList<Ogrenci> matematiktenEnDusukNotAlanlar = new ArrayList<>();
         float totalAlmanca = 0;
         float totalMatematik = 0;
         float almancaOrtalama = 0;

@@ -1,4 +1,4 @@
-package ch.hicoders.jam101.week02.kisi.ogrenci;
+package ch.hicoders.jam101.week02.kisi;
 
 public class Ogrenci {
     public int ogrenciIsmi;
