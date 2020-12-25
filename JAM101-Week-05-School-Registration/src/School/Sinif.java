@@ -5,13 +5,12 @@ public class Sinif {
     private Student[] students = new Student[2];
 
     public void addStudents(Student pStudent){
-        switch (students.length){
-            case 0:
-                this.students[0]=pStudent;
-                break;
-            case 1:
-                this.students[1]=pStudent;
-                break;
+        if (students[0] == null){
+            this.students[0]=pStudent;
+        }else if(students[1] == null){
+            this.students[1] = pStudent;
+        }else{
+            System.out.println("Sinifin kontenjani dolmustur.");
         }
     }
 
