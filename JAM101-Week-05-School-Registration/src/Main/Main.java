@@ -1,19 +1,25 @@
 package Main;
 
-import School.Class;
+import School.School;
+import School.Sinif;
 import School.Student;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        Student[] students = createStudent(2);
-        Class[] classes = createClass();
+        Student[] students = createStudent(10);
+        addToStudentsToClasses(students);
         allOfStudents(students);
-        addStudentsInSameArray(students, classes);
-        for (Class curClass : classes){
-            System.out.println(curClass.getGradeOfClass() + Arrays.toString(curClass.getStudents()));
+        Sinif[] siniflar = addToStudentsToClasses(students);
+        School school = new School();
+        school.setClasses(siniflar);
+        for (Sinif sinif:school.getClasses()) {
+            System.out.println(sinif.getGradeOfClass() + " sinifimizin ögrencileri");
+            System.out.println(Arrays.toString(sinif.getStudents()));
+            System.out.println(sinif.getStudents());
         }
     }
     private static Student[] createStudent(int n){
@@ -40,7 +46,6 @@ public class Main {
             lastThreeLetterOfLastName = pStudent.getLastName();
         }
         studentNumber = twoLettersOfFirstName + lastThreeLetterOfLastName + age;
-        System.out.println(pStudent.getFirstName() + " " + pStudent.getLastName() + "'s number is " + studentNumber);
         return studentNumber;
     }
     private static void allOfStudents(Student[] pStudent){
@@ -73,78 +78,50 @@ public class Main {
         System.out.println("Enter " + (pI+1) + ". student age: ");
         int studentAge = scanner.nextInt();
         pStudent.setAge(studentAge);
-        if(6 <= pStudent.getAge() && pStudent.getAge() <= 10){
-        }else{
+        if(6 > pStudent.getAge() || pStudent.getAge() > 10){
             System.out.println("Please enter a value between 6 and 10.  " + (pI+1) + ". student age: ");
             studentAge = scanner.nextInt();
+            pStudent.setAge(studentAge);
         }
-        pStudent.setAge(studentAge);
     }
-    private static Class[] createClass(){
-        Class[] classes = new Class[5];
-        for(int i = 0; i < 5 ; i++){
-            Class newClass = new Class();
-            newClass.setGradeOfClass("" + (i+1) + ". Grade");
-            classes[i] = newClass;
-        }
-        return classes;
-    }
-    private static Student[] class1(Student[] pStudent){
-        Student[] class1 = new Student[2];
-        for (int index = 0; index < class1.length;index++){
-            if (pStudent[index].getAge() == 6){
-                class1[index]=pStudent[index];
-            }else{
-                return null;
+    private static Sinif[] addToStudentsToClasses(Student[] pStudent){
+        Sinif sinif1 = new Sinif();
+        sinif1.setGradeOfClass("1. Grade");
+        Sinif sinif2 = new Sinif();
+        sinif2.setGradeOfClass("2. Grade");
+        Sinif sinif3 = new Sinif();
+        sinif3.setGradeOfClass("3. Grade");
+        Sinif sinif4 = new Sinif();
+        sinif4.setGradeOfClass("4. Grade");
+        Sinif sinif5 = new Sinif();
+        sinif5.setGradeOfClass("5. Grade");
+        for (Student student: pStudent){
+            switch (student.getAge()){
+                case 6:
+                    sinif1.addStudents(student);
+                    break;
+                case 7:
+                    sinif2.addStudents(student);
+                    break;
+                case 8:
+                    sinif3.addStudents(student);
+                    break;
+                case 9:
+                    sinif4.addStudents(student);
+                    break;
+                case 10:
+                    sinif5.addStudents(student);
+                    break;
             }
         }
-        return class1;
+        Sinif[] siniflar = new Sinif[5];
+        siniflar[0]=sinif1;
+        siniflar[1]=sinif2;
+        siniflar[2]=sinif3;
+        siniflar[3]=sinif4;
+        siniflar[4]=sinif5;
+        return siniflar;
     }
-    private static Student[] class2(Student[] pStudent){
-        Student[] class2 = new Student[2];
-        for (int index = 0; index < class2.length;index++){
-            if (pStudent[index].getAge() == 6){
-                class2[index]=pStudent[index];
-            }else{
-                return null;
-            }
-        }
-        return class2;
-    }
-    private static Student[] class3(Student[] pStudent){
-        Student[] class3 = new Student[2];
-        for (int index = 0; index < class3.length;index++){
-            if (pStudent[index].getAge() == 6){
-                class3[index]=pStudent[index];
-            }else{
-                return null;
-            }
-        }
-        return class3;
-    }
-    private static Student[] class4(Student[] pStudent){
-        Student[] class4 = new Student[2];
-        for (int index = 0; index < class4.length;index++){
-            if (pStudent[index].getAge() == 6){
-                class4[index]=pStudent[index];
-            }else{
-                return null;
-            }
-        }
-        return class4;
-    }
-    private static Student[] class5(Student[] pStudent){
-        Student[] class5 = new Student[2];
-        for (int index = 0; index < class5.length;index++){
-            if (pStudent[index].getAge() == 6){
-                class5[index]=pStudent[index];
-            }else{
-                return null;
-            }
-        }
-        return class5;
-    }
-    private static void addStudentsInSameArray(Student[] pStudent, Class[] pClass){
 
-    }
+
 }

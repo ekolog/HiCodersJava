@@ -3,14 +3,14 @@ package School;
 
 
 public class School {
-    private Class[] classes  = new Class[5];
+    private Sinif[] sinifs = new Sinif[5];
 
-    public Class[] getClasses() {
-        return classes;
+    public Sinif[] getClasses() {
+        return sinifs;
     }
 
-    public void setClasses(Class[] classes) {
-        this.classes = classes;
+    public void setClasses(Sinif[] sinifs) {
+        this.sinifs = sinifs;
     }
 
 }
