@@ -1,4 +1,6 @@
-package school;
+package School;
+
+
 
 public class School {
     private Class[] classes  = new Class[5];

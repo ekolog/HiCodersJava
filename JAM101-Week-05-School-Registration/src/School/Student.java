@@ -1,10 +1,15 @@
-package school;
+package School;
 
 public class Student {
     private String firstName;
     private String lastName;
     private int age;
     private String studentNumber;
+
+    public Student(){
+
+    }
+
 
     public String getStudentNumber() {
         return studentNumber;
@@ -38,4 +43,7 @@ public class Student {
         this.age = age;
     }
 
+    public String setStudentNumber() {
+        return null;
+    }
 }

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5377e3ad-7ddc-400e-874a-ca014b13c28e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/JAM101-Week5-SchoolRegistration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/Student.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +27,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1m1ojNCeYto2YkaveyakSk5QGwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JAM101-Week-05-School-Registration" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cilesiz\Desktop\JavaHiCoders" />
+      <recent name="C:\Users\Cilesiz\Desktop\JavaHiCoders\Suspect-Of-Train" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,5 +68,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
