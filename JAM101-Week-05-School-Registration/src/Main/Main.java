@@ -81,13 +81,13 @@ public class Main {
         pStudent.setAge(studentAge);
     }
     private static Class[] createClass(){
-        Class[] school = new Class[5];
+        Class[] classes = new Class[5];
         for(int i = 0; i < 5 ; i++){
             Class newClass = new Class();
             newClass.setGradeOfClass("" + (i+1) + ". Grade");
-            school[i] = newClass;
+            classes[i] = newClass;
         }
-        return school;
+        return classes;
     }
     private static Student[] class1(Student[] pStudent){
         Student[] class1 = new Student[2];
