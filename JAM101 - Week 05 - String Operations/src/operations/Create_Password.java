@@ -7,11 +7,32 @@ public class Create_Password {
 
     public static String createPassword(){
         String password = "";
+        int passwordLength;
 
+        for (int i=0;i<random.nextInt(8)+8;i++){
+
+        }
 
 
 
         return password;
+    }
+
+    public static void randomRandomMethods(int pRandomNumber){
+        switch (pRandomNumber){
+            case 0:
+                randomLowerCaseCharacter();
+                break;
+            case 1:
+                randomDigits();
+                break;
+            case 2:
+                randomUpperCaseCharacter();
+                break;
+            case 3:
+                randomSymbols();
+                break;
+        }
     }
 
     public static char randomLowerCaseCharacter(){
