@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9260eb57-bd9a-4579-b25a-140177ca9988" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ciftlik/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ciftlik/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAM101-Week-05-School-Registration/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAM101-Week-05-School-Registration/out/production/ch.hicoders.jam101 - Week 05 - School Registration/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAM101-Week-05-School-Registration/out/production/ch.hicoders.jam101 - Week 05 - School Registration/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAM101-Week3-School/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAM101-Week3-School/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAM101 - Week 05 - String Operations/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAM101 - Week 05 - String Operations/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
