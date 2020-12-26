@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ciftlik/Ciftlik.iml" filepath="$PROJECT_DIR$/Ciftlik/Ciftlik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAM101-Week-05-School-Registration/JAM101-Week-05-School-Registration.iml" filepath="$PROJECT_DIR$/JAM101-Week-05-School-Registration/JAM101-Week-05-School-Registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAM101-Week3-School/JAM101-Week3-School.iml" filepath="$PROJECT_DIR$/JAM101-Week3-School/JAM101-Week3-School.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaHiCoders.iml" filepath="$PROJECT_DIR$/.idea/JavaHiCoders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Suspect-Of-Train/Suspect-Of-Train.iml" filepath="$PROJECT_DIR$/Suspect-Of-Train/Suspect-Of-Train.iml" />
     </modules>
   </component>
 </project>

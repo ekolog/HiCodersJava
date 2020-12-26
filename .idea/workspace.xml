@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5377e3ad-7ddc-400e-874a-ca014b13c28e" name="Default Changelist" comment="">
+    <list default="true" id="893a3f06-934b-4a13-89ab-9b9646e2f821" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/JAM101-Week5-SchoolRegistration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/Class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/out/production/JAM101-Week5-SchoolRegistration/school/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/School.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAM101-Week5-SchoolRegistration/src/school/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ciftlik/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ciftlik/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101 - Week 05 - String Operations/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101 - Week 05 - String Operations/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101 - Week 05 - String Operations/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101 - Week 05 - String Operations/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101 - Week 05 - String Operations/JAM101 - Week 05 - String Operations.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week-05-School-Registration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week-05-School-Registration/out/production/ch.hicoders.jam101 - Week 05 - School Registration/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week-05-School-Registration/out/production/ch.hicoders.jam101 - Week 05 - School Registration/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAM101-Week3-School/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JAM101-Week3-School/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,48 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1m1ojNCeYto2YkaveyakSk5QGwP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1mCIM8smImATCvbJRmWwpVlbYmL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JAM101-Week-05-School-Registration" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Cilesiz\Desktop\JavaHiCoders" />
-      <recent name="C:\Users\Cilesiz\Desktop\JavaHiCoders\Suspect-Of-Train" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5377e3ad-7ddc-400e-874a-ca014b13c28e" name="Default Changelist" comment="" />
-      <created>1608670595116</created>
+      <changelist id="893a3f06-934b-4a13-89ab-9b9646e2f821" name="Default Changelist" comment="" />
+      <created>1608991099103</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608670595116</updated>
+      <updated>1608991099103</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
