@@ -1,5 +1,9 @@
 package Main;
-
+/*
+ * import java.util.regex.*;
+ * Pattern.matches("[0-9]", studentsAge);
+ * Bu metod createAge ve createStudent icinde kullanilabilir.
+*/
 import School.School;
 import School.Sinif;
 import School.Student;
@@ -89,7 +93,6 @@ public class Main {
         System.out.println("Enter " + (pI+1) + ". student age: ");
         int studentAge = scanner.nextInt();
         pStudent.setAge(studentAge);
-
         if(6 > pStudent.getAge() || pStudent.getAge() > 10){
             System.out.println("Please enter a value between 6 and 10.  " + (pI+1) + ". student age: ");
             studentAge = scanner.nextInt();
@@ -137,4 +140,5 @@ public class Main {
         siniflar[4]=sinif5;
         return siniflar;
     }
+
 }
