@@ -11,12 +11,10 @@ import static operations.Create_Password.writeInConsole;
 public class Main {
     static Random random = new Random();
     public static void main(String[] args){
-        /*
         stringToUpperCase("asik veysel");
         zeroToHundred();
         writePrimeNumbers();
         drawStars();
-        */
         writeInConsole();
     }
 
