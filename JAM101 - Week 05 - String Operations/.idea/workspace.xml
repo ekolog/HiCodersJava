@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9260eb57-bd9a-4579-b25a-140177ca9988" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAM101 - Week 05 - String Operations/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAM101 - Week 05 - String Operations/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/operations/Create_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations/Create_Password.java" afterDir="false" />
     </list>
@@ -79,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
