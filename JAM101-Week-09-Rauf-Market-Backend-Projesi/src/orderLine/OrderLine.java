@@ -2,14 +2,12 @@ package orderLine;
 
 import product.Product;
 
-import java.text.DecimalFormat;
-
 public class OrderLine {
     private Product product;
     private int productQuantity;
-    private DecimalFormat totalItemPrice;
+    private double totalItemPrice;
 
-    public OrderLine(Product product, int productQuantity, DecimalFormat totalItemPrice) {
+    public OrderLine(Product product, int productQuantity, double totalItemPrice) {
         this.product = product;
         this.productQuantity = productQuantity;
         this.totalItemPrice = totalItemPrice;
@@ -31,11 +29,11 @@ public class OrderLine {
         this.productQuantity = productQuantity;
     }
 
-    public DecimalFormat getTotalItemPrice() {
+    public double getTotalItemPrice() {
         return totalItemPrice;
     }
 
-    public void setTotalItemPrice(DecimalFormat totalItemPrice) {
+    public void setTotalItemPrice(double totalItemPrice) {
         this.totalItemPrice = totalItemPrice;
     }
 }

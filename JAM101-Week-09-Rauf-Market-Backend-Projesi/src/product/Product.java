@@ -1,14 +1,14 @@
 package product;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Product {
     private String productName;
     private double productPrice;
-    private Date createDate;
+    private LocalDate createDate;
     private int stockVolume;
 
-    public Product(String productName, double productPrice, Date createDate, int stockVolume) {
+    public Product(String productName, double productPrice, LocalDate createDate, int stockVolume) {
         this.productName = productName;
         this.productPrice = productPrice;
         this.createDate = createDate;
@@ -31,11 +31,11 @@ public class Product {
         this.productPrice = productPrice;
     }
 
-    public Date getCreateDate() {
+    public LocalDate getCreateDate() {
         return createDate;
     }
 
-    public void setCreateDate(Date createDate) {
+    public void setCreateDate(LocalDate createDate) {
         this.createDate = createDate;
     }
 
