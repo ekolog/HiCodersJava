@@ -29,7 +29,7 @@ public class OnlineSale {
             int productRequest = randomOfProductPurchases();
 
             if (checkStock(product.getStockVolume(), productRequest)) {
-                OrderLine orderLine = createOrderLine(product, productRequest);
+                OrderLine orderLine = createOrderLine(productIndex, productRequest);
                 orderLines.add(orderLine);
                 int newVolume = calculateNewVolume(product.getStockVolume(), productRequest);
                 updateStockVolume(productIndex, newVolume);
@@ -76,10 +76,9 @@ public class OnlineSale {
         products.get(index).setStockVolume(newVolume);
     }
 
-    private OrderLine createOrderLine(Product product, int productRequest){
-        double totalPrice = productRequest * product.getProductPrice();
-        product.setStockVolume(productRequest);
-        return new OrderLine(product, productRequest, totalPrice);
+    private OrderLine createOrderLine(int productIndex, int productRequest){
+        double totalPrice = productRequest * products.get(productIndex).getProductPrice();
+        return new OrderLine(products.get(productIndex), productRequest, totalPrice);
     }
 
     private void showLastStock(){
@@ -100,7 +99,7 @@ public class OnlineSale {
                 System.out.println(orderLine.getProduct().getProductName()
                         + " " + orderLine.getProduct().getCreateDate()
                         + " " + orderLine.getProduct().getProductPrice()
-                        + " " + orderLine.getProduct().getStockVolume());
+                        + " " + orderLine.getProductQuantity());
             }
             System.out.println(orderLines.size() + " kadar farkli ürün alinmistir ve bunlarin toplam fiyati " + orderedProduct.getTotalPrice() + "CHF dir.");
         }else{
